@@ -1,7 +1,4 @@
 AIE314 Tutorial 1: Preprocessing Unstructured Data for LLM Applications
-Team Members
-John Doe (ID: 12345)
-Jane Smith (ID: 67890)
 Project Description
 This project focuses on preprocessing unstructured data from diverse document formats (PDF, Word, Excel, PowerPoint, HTML, EPUB) and constructing a Retrieval-Augmented Generation (RAG) bot that can handle mixed media (text + images). The goal is to enable large language models (LLMs) to reason effectively over structured, semistructured, and unstructured data sources.
 Key Components
@@ -23,7 +20,7 @@ Quick Start
 Clone the Repository
 bash
 Copy
-git clone https://github.com/your-username/AIE314-Tutorial-1  
+git clone https://github.com/AmRo1011/AIE314-Tutorial1  
 cd AIE314-Tutorial-1  
 Run the Preprocessing Script
 Place your documents (PDF, DOCX, etc.) in the ./data folder.
