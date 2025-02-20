@@ -1,4 +1,5 @@
 AIE314 Tutorial 1: Preprocessing Unstructured Data for LLM Applications
+
 Project Description
 This project focuses on preprocessing unstructured data from diverse document formats (PDF, Word, Excel, PowerPoint, HTML, EPUB) and constructing a Retrieval-Augmented Generation (RAG) bot that can handle mixed media (text + images). The goal is to enable large language models (LLMs) to reason effectively over structured, semistructured, and unstructured data sources.
 Key Components
@@ -13,28 +14,24 @@ How to Run the Code
 Prerequisites
 Python 3.8+
 Required libraries (install via pip):
-bash
-Copy
+bashCopy
 pip install python-docx python-pptx pandas PyMuPDF beautifulsoup4 transformers
 Quick Start
 Clone the Repository
-bash
-Copy
+bashCopy
 git clone https://github.com/AmRo1011/AIE314-Tutorial1  
 cd AIE314-Tutorial-1  
 Run the Preprocessing Script
 Place your documents (PDF, DOCX, etc.) in the ./data folder.
 Execute the preprocessing functions:
-Python
-Copy
+PythonCopy
 # Example: Extract text from a PDF and save to JSON  
 file_path = "./data/sample.pdf"  
 extracted_text = extract_text_from_file(file_path)  
 convert_to_json(file_path, extracted_text, output_path="./data/output.json")  
 Run the QA Demo
 Test the RAG bot with a sample question:
-Python
-Copy
+PythonCopy
 question = "What were the key factors leading to King John's excommunication?"  
 answer = answer_question(question, extracted_text)  
 print(f"Answer: {answer}")  
